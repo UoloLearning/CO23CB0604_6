@@ -1,0 +1,34 @@
+print("DIET PLAN")
+day = 1
+while( True ):
+    if(day<=6):
+        print(" DAY  ", day)
+        print("Breakfast:")
+        print("1 ounce of grains + 1 cup dairy/dairy equivalent (e.g., oatmeal: 1/3 cup dry oats + 1 cup milk)")
+        print("1 ounce of protein (e.g., 12 almonds)")
+        print("1/2 cup of fruit (e.g., 1/2 of a Granny Smith apple)")
+        print("1 cup of dairy/dairy equivalent (e.g., 1 cup of milk of choice)")
+        print("Snack:")
+        print("1 ounce of grains (1 ounce of whole grain crackers)")
+        print("1 ounce of protein (1 tablespoon of nut/seed butter)")
+        print("Water")
+        print("Lunch:")
+        print("Sandwich")
+        print("2 ounces of protein of choice")
+        print("1 cup of vegetables (e.g. tomato, lettuce, cucumbers,etc.)")
+        print("1/4 cup of avocado")
+        print("1 cup of fruit (e.g., a banana)")
+        print("Water")
+        print("Snack:")
+        print("1 cup of dairy/dairy equivalent (1 cup of yogurt of choice)")
+        print("Dinner:")
+        print("2 ounces protein (e.g., 1/2 cup beans of choice)")
+        print("1 1/2 cups vegetables (e.g., 1/2 cup corn, 1/2 cup red and green peppers, 1/2 cup tomato puree)")
+        print("2 ounces grains (e.g., 1 large slice cornbread)")
+        print("Water")
+        print("")
+        day+=1
+    elif(day == 7):
+        print("It's Sunday! You can have food of your choice." )
+        break;
+
