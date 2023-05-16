@@ -1,0 +1,12 @@
+students_scores = [95, 92, 88, 96, 91, 89, 94]
+award_count = 0
+
+for score in students_scores:
+    if score <= 90:
+        continue
+    
+    award_count += 1
+    print(f"Student gets the award.")
+    
+    if award_count >= 5:
+        break
